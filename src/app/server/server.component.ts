@@ -11,7 +11,7 @@ export class ServerComponent{
     serverStatus:string = 'offline';
     allowNewServer = false
     serverCreationStatus = 'No server was created..'
-    ServerName =''
+    ServerName ='TestServer'
 
     constructor(){
         setTimeout(()=>{
