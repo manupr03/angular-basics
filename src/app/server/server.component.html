@@ -26,3 +26,8 @@ class="form-control"
         is
         {{ getServerStatus() }}
     </p>
+    <ul>
+        <li *ngFor="let server of servers">{{server}}</li>
+    </ul>
+
+
